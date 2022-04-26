@@ -40,7 +40,6 @@ $ npm i
 
 ## Local Development
 
-Before running, we need to add the Instgram and Google API Credentials to the project. Under the `config` directory of the repo, you will find `instagram.js` and `google.js`. We need to add the `<CLIENT_ID>`, `<CLIENT_SECRET>` and `<host>:<port>` with our own API credentials
 
 ```javascript
 /** REPLACE YOUR API CREDENTIALS HERE **/
