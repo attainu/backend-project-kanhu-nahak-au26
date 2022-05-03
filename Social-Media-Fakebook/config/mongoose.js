@@ -1,7 +1,7 @@
 const mongoose = require('mongoose'); //requiring mongoose
 mongoose.connect('mongodb://localhost/fakebook'); //connecting to the database
 
-const db = 'mongodb+srv://fakebook:attainu@cluster0.8iwjv.mongodb.net/fakebook?retryWrites=true&w=majority'; //acquiring the connection
+const db = 'mongodb+srv://fakebook:<password>@cluster0.8iwjv.mongodb.net/my_project?retryWrites=true&w=majority'; //acquiring the connection
 mongoose.connect(db,{
     useNewUrlParser:true,
     useCreateIndex:true,
