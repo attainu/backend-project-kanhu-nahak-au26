@@ -7,7 +7,6 @@ AttainU Repository
 
 - Sign in using local authentication.
 - Search for your other users.
-- Chat with your friends in realtime.
 - Like and comment on a feed.
 - API for developers
 - View your profile.
@@ -41,15 +40,8 @@ $ npm i
 ## Local Development
 
 
-```javascript
-/** REPLACE YOUR API CREDENTIALS HERE **/
-var in_client_id = 'XXXXXXXXXXXXXXXXXX', // <CLIENT_ID>
-    in_client_secret = 'XXXXXXXXXXXXXXXXXXXX', // <CLIENT_SECRET>
-```
 
-```javascript
-var in_redirect_uri = "http://localhost:80/account/oauth/:service";
-```
+
 
 Finally start the MongoDB server in a seperate bash/pm2
 
