@@ -32,9 +32,7 @@ And a lot more to be added soon...
 Clone the repo locally then install all the dependencies using [NPM](https://npmjs.org/)
 
 ```bash
-$ git clone https://github.com/dan-divy/spruce.git
-$ cd spruce
-$ npm i
+
 ```
 
 ## Local Development
